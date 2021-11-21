@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1px;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    position: block;
+    text-align: center;
+}
+
+.hr {
+    border-style: inset;
+    border-width: 3px;
+}
+
+@media(max-width: 900px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+
