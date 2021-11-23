@@ -1,0 +1,17 @@
+.contentContainer {
+    margin-left: 20vw;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+
+.locationDates {
+    
+}
+
+li {
+    include: locationDates;
+}

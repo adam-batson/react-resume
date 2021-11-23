@@ -1,20 +1,56 @@
-nav {
+.navPanel {
     position: fixed;
     top: 0;
     left: 0;
+    padding-top: 2vh;
     overflow-x: hidden;
-    width: 15%;
-    min-width: 130px;
     height: 100%;
-    z-index: 10;
-    align-items: center;
+    width: 20vw;
+    z-index: 1;
     background-color: black;
 }
 
-button {
-    display: flex;
-    align-items: center;
-    width: 98%;
-    border-style: inset;
-    border-width: 3px;
+.links {
+    display: block;
+    margin: -1vh 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vh 0;
+    text-decoration: none;
+    background-color: darkslategray;
+    color: white;
+    border: inset;
 }
+
+.links:hover {
+    animation-name: heartBeat;
+    animation-duration: 2s;
+}
+
+@keyframes heartBeat { /* Taken from animate.css. It would not work otherwise */
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    14% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    28% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    42% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    70% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
