@@ -6,9 +6,12 @@
 
 .contentContainer {
   margin-left: 20vw;
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 .title {
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 1vw;
   font-size: 2vw;
@@ -27,4 +30,13 @@ h4 {
   margin-left: 3vw;
   font-size: 1vw;
   font-weight: normal;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

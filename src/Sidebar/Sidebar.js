@@ -23,6 +23,8 @@ export default function Sidebar () {
                     <div className={styles.gridItems} id={styles.box7}>OOP</div>
                     <div className={styles.gridItems} id={styles.box8}>Git</div>
                     <div className={styles.gridItems} id={styles.box9}>GitHub</div>
+                    <div className={styles.gridItems} id={styles.box10}>Documentation</div>
+
                 </div>
             </div>
         </div>

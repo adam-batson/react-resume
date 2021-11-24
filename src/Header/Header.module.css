@@ -5,6 +5,8 @@
   text-align: center;
   margin-left: 20vw;
   line-height: 4vh;
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 
 h1 {
@@ -45,5 +47,14 @@ h2 {
 @media (height: 100px) {
   #contacts {
     margin-bottom: 2px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
