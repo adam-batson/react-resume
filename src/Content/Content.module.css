@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+
 .contentContainer {
     margin-left: 20vw;
 }
@@ -8,10 +14,18 @@
     font-size: 2vw;
 }
 
-.locationDates {
-    
+h4 {
+    font-size: 1vw;
 }
 
 li {
-    include: locationDates;
+    display: grid;
+    column-count: auto;
+}
+
+.locationDates {
+}
+
+.description {
+    
 }

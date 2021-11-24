@@ -28,6 +28,36 @@
     animation-duration: 2s;
 }
 
+hr {
+  border: inset;
+  border-color: darkslategray;
+  border-width: 3px;
+}
+
+.skills {
+  color: white;
+  background-color: darkslategray;
+  border: inset;
+  margin: 3vh 2vw;
+}
+
+.skills h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  text-align: center;
+}
+
+#skillGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gridItems {
+  margin: auto;
+  padding: .5vw;
+  font-size: 1.5vw;
+}
+
 @keyframes heartBeat { /* Taken from animate.css. It would not work otherwise */
     0% {
       -webkit-transform: scale(1);
