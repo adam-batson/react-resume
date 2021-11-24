@@ -8,7 +8,7 @@ export default function Content() {
             <div id="work">
                 <h4>
                     Microsoft Leap Internal Program at Microsoft |&nbsp;
-                    <span className={styles.locationDates}>Redmond, WA from July 2021 - Present</span>
+                    <span className={styles.locationDates}>Redmond, WA (Remote) from July 2021 - Present</span>
                 </h4>
                 <p className={styles.description}>
                     Studied full stack web development concepts using C#, HTML, CSS, JavaScript, and React
