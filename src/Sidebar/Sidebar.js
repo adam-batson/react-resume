@@ -12,6 +12,7 @@ export default function Sidebar () {
             <hr />
             <div className={styles.skills}>
                 <h3>Skills</h3>
+                <hr id={styles.skillDivider} />
                 <div id={styles.skillGrid}>
                     <div className={styles.gridItems} id={styles.box1}>HTML</div>
                     <div className={styles.gridItems} id={styles.box2}>CSS</div>

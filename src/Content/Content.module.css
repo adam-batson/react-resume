@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;;
+  font-family: "Roboto", sans-serif;
 }
 
 .contentContainer {
-    margin-left: 20vw;
+  margin-left: 20vw;
 }
 
 .title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 1vw;
-    font-size: 2vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 1vw;
+  font-size: 2vw;
 }
 
 h4 {
-    font-size: 1vw;
-}
-
-li {
-    display: grid;
-    column-count: auto;
+  font-size: 1.5vw;
+  font-weight: bold;
 }
 
 .locationDates {
+  font-weight: normal;
 }
 
 .description {
-    
+  margin-left: 3vw;
+  font-size: 1vw;
+  font-weight: normal;
 }

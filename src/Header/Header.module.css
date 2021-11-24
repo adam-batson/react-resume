@@ -1,38 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .header {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-left: 20vw;
-    line-height: 4vh;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-left: 20vw;
+  line-height: 4vh;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 4vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4vw;
 }
 
 h2 {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 
-.hr {
-    border-style: inset;
-    border-color: darkslategray;
-    border-width: 3px;
+#divider {
+  border-color: darkslategray;
+  border-width: 2px;
 }
 
-#linkedIn {
-    color: black;
-    margin-top: 3vh;
-    text-decoration: none;
+#contacts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  color: black;
+  margin: 3vh 2vw;
+  font-size: 2vw;
 }
 
-#linkedIn:hover {
-    color: darkslategray;
+.contactLinks {
+  text-decoration: none !important;
 }
 
-#linkedIn:visited {
-    color: darkblue;
+.contactLinks:hover {
+  color: darkslategray;
 }
 
+.contactLinks:visited {
+  color: darkblue;
+}
+
+@media (height: 100px) {
+  #contacts {
+    margin-bottom: 2px;
+  }
+}

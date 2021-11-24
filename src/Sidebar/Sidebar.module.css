@@ -1,48 +1,53 @@
 .navPanel {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 2vh;
-    overflow-x: hidden;
-    height: 100%;
-    width: 20vw;
-    z-index: 1;
-    background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 2vh;
+  overflow-x: hidden;
+  height: 100%;
+  width: 20vw;
+  z-index: 1;
+  background-color: black;
 }
 
 .links {
-    display: block;
-    margin: -1vh 2vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    text-align: center;
-    padding: 1vh 0;
-    text-decoration: none;
-    background-color: darkslategray;
-    color: white;
-    border: inset;
+  display: block;
+  margin: -1vh 2vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2vw;
+  text-align: center;
+  padding: 1vh 0;
+  text-decoration: none;
+  background-color: darkslategray;
+  color: white;
+  border: outset;
 }
 
 .links:hover {
-    animation-name: heartBeat;
-    animation-duration: 2s;
+  animation-name: heartBeat;
+  animation-duration: 2s;
 }
 
 hr {
-  border: inset;
   border-color: darkslategray;
   border-width: 3px;
+}
+
+#skillDivider {
+  border: inset;
+  border-color: white !important;
+  border-width: 1px;
 }
 
 .skills {
   color: white;
   background-color: darkslategray;
-  border: inset;
+  border: outset;
   margin: 3vh 2vw;
 }
 
 .skills h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2vw;
   text-align: center;
 }
@@ -54,33 +59,34 @@ hr {
 
 .gridItems {
   margin: auto;
-  padding: .5vw;
+  padding: 0.5vw;
   font-size: 1.5vw;
 }
 
-@keyframes heartBeat { /* Taken from animate.css. It would not work otherwise */
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  
-    14% {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-  
-    28% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  
-    42% {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-  
-    70% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
+@keyframes heartBeat {
+  /* Taken from animate.css. It would not work otherwise */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
