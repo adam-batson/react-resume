@@ -13,9 +13,6 @@
 .links {
   display: block;
   margin: -1vh 2vw;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2vw;
-  text-align: center;
   padding: 1vh 0;
   text-decoration: none;
   background-color: darkslategray;
@@ -26,6 +23,13 @@
 .links:hover {
   animation-name: heartBeat;
   animation-duration: 2s;
+}
+
+.links,
+.skills h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2vw;
+  text-align: center;
 }
 
 hr {
@@ -44,12 +48,6 @@ hr {
   background-color: darkslategray;
   border: outset;
   margin: 3vh 2vw;
-}
-
-.skills h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2vw;
-  text-align: center;
 }
 
 #skillGrid {
