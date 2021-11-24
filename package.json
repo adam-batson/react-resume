@@ -1,6 +1,6 @@
 {
   "name": "react-practice",
-  "homepage": "http://tabatson.github.io/{react-resume}",
+  "homepage": "http://tabatson.github.io/react-resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
